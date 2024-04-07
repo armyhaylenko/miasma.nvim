@@ -6,7 +6,7 @@ local hsluv = lush.hsluv
 local theme = lush(function(injected_functions)
   local sym = injected_functions.sym
   return {
-    SpecialKey                                 { fg="#d7c483", },
+    SpecialKey                                 { fg="#d2b30367c483", },
     TermCursor                                 { gui="reverse", },
     NonText                                    { fg="#666666", gui="bold", },
     EndOfBuffer                                { NonText },
@@ -62,7 +62,7 @@ local theme = lush(function(injected_functions)
     SpellCap                                   { fg="#5f875f", gui="underline", sp="#d7c483", },
     SpellRare                                  { fg="#b36d43", gui="underline", sp="#d7c483", },
     SpellLocal                                 { fg="#bb7744", gui="underline", sp="#d7c483", },
-    Pmenu                                      { fg="#d7c483", bg="#1c1c1c", },
+    Pmenu                                      { fg="#85919d", bg="#1c1c1c", },
     PmenuKind                                  { Pmenu },
     PmenuExtra                                 { Pmenu },
     NormalFloat                                { Pmenu },
@@ -87,7 +87,7 @@ local theme = lush(function(injected_functions)
     Cursor                                     { fg="#222222", bg="#685742", },
     FzfLuaCursor                               { Cursor },
     lCursor                                    { fg="bg", bg="fg", },
-    Normal                                     { fg="#c1c5a0", bg="#2b3036", },
+    Normal                                     { fg="#c1c5a0", bg="#222222", },
     NvimSpacing                                { Normal },
     FzfLuaNormal                               { Normal },
     FzfLuaBorder                               { Normal },

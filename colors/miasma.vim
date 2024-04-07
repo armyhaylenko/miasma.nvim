@@ -125,7 +125,7 @@ hi NonText guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Normal guifg=#c1c5a0 guibg=#2b3036 guisp=NONE blend=NONE gui=NONE
 hi Number guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NvimInternalError guifg=#1c1c1c guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
-hi Pmenu guifg=#d7c483 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi Pmenu guifg=#85919d guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi PmenuSbar guifg=NONE guibg=#666666 guisp=NONE blend=NONE gui=NONE
 hi PmenuSel guifg=#222222 guibg=#78834b guisp=NONE blend=NONE gui=NONE
 hi PmenuThumb guifg=#d7c483 guibg=#d7c483 guisp=NONE blend=NONE gui=NONE
