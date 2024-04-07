@@ -87,7 +87,7 @@ local theme = lush(function(injected_functions)
     Cursor                                     { fg="#222222", bg="#685742", },
     FzfLuaCursor                               { Cursor },
     lCursor                                    { fg="bg", bg="fg", },
-    Normal                                     { fg="#D7C483", bg="#222222", },
+    Normal                                     { fg="#c1c5a0", bg="#2b3036", },
     NvimSpacing                                { Normal },
     FzfLuaNormal                               { Normal },
     FzfLuaBorder                               { Normal },
