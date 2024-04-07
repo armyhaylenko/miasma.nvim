@@ -103,7 +103,7 @@ local theme = lush(function(injected_functions)
     NvimInvalid                                { Error },
     Todo                                       { fg="#d7c483", gui="bold,underline", },
     sym"@text.todo"                            { Todo },
-    String                                     { fg="#685742", },
+    String                                     { fg="##73755b", },
     sym"@string"                               { String },
     NvimString                                 { String },
     phpHereDoc                                 { String },
