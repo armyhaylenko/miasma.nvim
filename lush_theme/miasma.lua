@@ -416,6 +416,7 @@ local theme = lush(function(injected_functions)
     TelescopeResultsComment                    { },
     TelescopeResultsNumber                     { },
     TroublePreview                     { bg = "#222222"},
+    TroubleFile                        { bg = "#222222"},
   }
 end)
 ---@diagnostic disable
