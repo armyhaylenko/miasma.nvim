@@ -210,7 +210,7 @@ hi TelescopeTitle guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TermCursor guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=reverse
 hi Title guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Todo guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=bold,underline
-hi TroublePreview guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi TroublePreview guifg=NONE guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi Type guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Underlined guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=underline
 hi User1 guifg=#d7c483 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
