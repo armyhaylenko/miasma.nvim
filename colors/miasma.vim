@@ -150,7 +150,7 @@ hi Search guifg=#222222 guibg=#5f875f guisp=NONE blend=NONE gui=NONE
 hi SelectionCaret guifg=#d7c483 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi SignColumn guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Special guifg=#bb7744 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi SpecialKey guifg=#d2b30367c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi SpecialKey guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SpellBad guifg=#685742 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellCap guifg=#5f875f guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellLocal guifg=#bb7744 guibg=NONE guisp=#d7c483 blend=NONE gui=underline

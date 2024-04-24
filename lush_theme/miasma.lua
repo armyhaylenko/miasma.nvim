@@ -6,7 +6,7 @@ local hsluv = lush.hsluv
 local theme = lush(function(injected_functions)
   local sym = injected_functions.sym
   return {
-    SpecialKey                                 { fg="#d2b30367c483", },
+    SpecialKey                                 { fg="#d7c483", },
     TermCursor                                 { gui="reverse", },
     NonText                                    { fg="#666666", gui="bold", },
     EndOfBuffer                                { NonText },
@@ -415,7 +415,7 @@ local theme = lush(function(injected_functions)
     TelescopeResultsSpecialComment             { },
     TelescopeResultsComment                    { },
     TelescopeResultsNumber                     { },
-    TroublePreview                     { },
+    TroublePreview                     { bg = "#222222"},
   }
 end)
 ---@diagnostic disable
