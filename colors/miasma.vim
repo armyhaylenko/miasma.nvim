@@ -33,11 +33,11 @@ hi DiagnosticSignError guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NON
 hi DiagnosticSignHint guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi DiagnosticSignInfo guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi DiagnosticSignWarn guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
-hi DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
-hi DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
+hi DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
+hi DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
+hi DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
 hi DiagnosticUnderlineOk guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
-hi DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
+hi DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=undercurl
 hi DiagnosticUnnecessary guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=underline
 hi DiagnosticVirtualTextError guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi DiagnosticVirtualTextHint guifg=#78824b guibg=#222222 guisp=NONE blend=NONE gui=NONE
@@ -109,20 +109,11 @@ hi LspReferenceRead guifg=#5f875f guibg=NONE guisp=#fd9720 blend=NONE gui=bold,u
 hi LspReferenceText guifg=#d7c483 guibg=#43492a guisp=#fd9720 blend=NONE gui=bold,undercurl
 hi LspReferenceWrite guifg=#5f875f guibg=NONE guisp=#fd9720 blend=NONE gui=bold,undercurl
 hi LspSignatureActiveParameter guifg=NONE guibg=NONE guisp=#fbec9f blend=NONE gui=bold,italic,underline
-hi MasonError guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi MasonHeader guifg=#d7c483 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi MasonHeading guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi MasonHighlight guifg=#78824b guibg=#222222 guisp=NONE blend=NONE gui=NONE
-hi MasonHighlightBlockBoldSecondary guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi MasonHighlightBlockSecondary guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi MasonHighlightSecondary guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi MasonMuted guifg=#c9a554 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi MasonWarning guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi MatchParen guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=bold,underline
 hi ModeMsg guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
 hi MoreMsg guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=bold
 hi NonText guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
-hi Normal guifg=#c1c5a0 guibg=#2b3036 guisp=NONE blend=NONE gui=NONE
+hi Normal guifg=#c1c5a0 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi Number guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NvimInternalError guifg=#1c1c1c guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi Pmenu guifg=#85919d guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
@@ -156,9 +147,10 @@ hi ScrollbarSearchHandle guifg=#c9a554 guibg=#1c1c1c guisp=NONE blend=0 gui=NONE
 hi ScrollbarWarn guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi ScrollbarWarnHandle guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=0 gui=NONE
 hi Search guifg=#222222 guibg=#5f875f guisp=NONE blend=NONE gui=NONE
+hi SelectionCaret guifg=#d7c483 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi SignColumn guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Special guifg=#bb7744 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi SpecialKey guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi SpecialKey guifg=#d2b30367c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SpellBad guifg=#685742 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellCap guifg=#5f875f guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellLocal guifg=#bb7744 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
@@ -214,11 +206,11 @@ hi TelescopeResultsOperator guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeResultsSpecialComment guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeResultsStruct guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeResultsVariable guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi TelescopeSelectionCaret guifg=#d7c483 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi TelescopeTitle guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TermCursor guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=reverse
 hi Title guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Todo guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=bold,underline
+hi TroublePreview guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi Type guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Underlined guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=underline
 hi User1 guifg=#d7c483 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
@@ -347,11 +339,6 @@ hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
 hi! link LspCodeLens Comment
 hi! link Macro PreProc
-hi! link MasonHeaderSecondary LazyButtonActive
-hi! link MasonHighlightBlock LazyButtonActive
-hi! link MasonHighlightBlockBold LazyButtonActive
-hi! link MasonMutedBlock MasonMuted
-hi! link MasonMutedBlockBold MasonHighlight
 hi! link MsgSeparator StatusLine
 hi! link NERDTreeExecFile String
 hi! link NERDTreeHelp Comment
@@ -397,6 +384,7 @@ hi! link TelescopeResultsBorder TelescopeBorder
 hi! link TelescopeResultsFileIcon Special
 hi! link TelescopeResultsTitle TelescopeTitle
 hi! link TelescopeSelection Visual
+hi! link TelescopeSelectionCaret SelectionCaret
 hi! link Typedef Type
 hi! link Whitespace NonText
 hi! link WinBarNC WinBar
